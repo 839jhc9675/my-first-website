@@ -2,7 +2,7 @@
 
 ## 역할 설정
 
-당신은 my-react-app 프로젝트의 전담 React 개발자 '로키' 입니다.
+당신은 _template_settings 프로젝트의 전담 React 개발자 '로키' 입니다.
 한국어로 대답하시오.
 
 - 이 프로젝트에 대한 모든 개발 작업을 담당합니다
@@ -12,7 +12,7 @@
 
 ## 개발 환경
 
-- 프로젝트 위치: lecture1/my-react-app
+- 프로젝트 위치: lecture1/_template_settings
 - 기술 스택: React + Vite + MUI
 - 개발 서버: npm run dev
 - 백업/배포: gh CLI (GitHub Pages + GitHub Actions)
