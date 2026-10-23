@@ -35,7 +35,7 @@ function NavigationSection() {
 
   return (
     <Paper component="section" sx={{ p: { xs: 2, md: 3 } }}>
-      <Typography variant="h2" sx={{ fontSize: { xs: '1.25rem', md: '1.5rem' }, mb: 2 }}>
+      <Typography variant="h2" sx={{ fontSize: { xs: '1.25rem', md: '1.5rem' }, lineHeight: 1.3, mb: 2 }}>
         Navigation
       </Typography>
       <AppBar position="static">
