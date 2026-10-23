@@ -1,6 +1,10 @@
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
+import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
+import ButtonSection from './components/sections/button-section.jsx';
+import InputSection from './components/sections/input-section.jsx';
+import NavigationSection from './components/sections/navigation-section.jsx';
 
 /**
  * App 컴포넌트
@@ -33,6 +37,11 @@ function App() {
         >
           Hello, MUI
         </Typography>
+        <Stack spacing={ 3 } sx={{ mt: 4 }}>
+          <ButtonSection />
+          <InputSection />
+          <NavigationSection />
+        </Stack>
       </Container>
     </Box>
   );
